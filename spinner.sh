@@ -2,8 +2,6 @@
 # Check for valid digital ocean token via api 
 digitaloceantoken=$(cat references/.keys/digitaloceantoken)
 
-##################################################new mess here
-
 authorization=$'"Authorization: Bearer '$digitaloceantoken'"'
 urlstub='https://api.digitalocean.com/v2/'
 content='"Content-Type: application/json"'
